@@ -1,0 +1,17 @@
+basePath: /api
+host: localhost:8080
+info:
+  contact: {}
+  description: REST API для маркетплейса с авторизацией и работой с объявлениями
+  termsOfService: http://swagger.io/terms/
+  title: Marketplace API
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  Bearer:
+    description: 'JWT Authorization header using the Bearer scheme. Example: "Authorization:
+      Bearer {token}"'
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
